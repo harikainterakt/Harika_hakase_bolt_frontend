@@ -93,7 +93,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
               </button> */}
               <button
                 onClick={() => onShowAuth('signup')}
-                className="px-6 py-2 bg-gradient-to-r from-sky-400 to-blue-500 text-white rounded-lg font-medium
+                className="px-6 py-2 bg-miconbrandblue text-white rounded-lg font-medium
                           hover:from-sky-500 hover:to-blue-600 transition-all duration-200 transform hover:scale-105
                           shadow-md hover:shadow-lg"
               >
@@ -134,7 +134,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
             </button> */}
             <button
               onClick={() => onShowAuth('signup')}
-              className="px-8 py-4 bg-gradient-to-r from-sky-400 to-blue-500 text-white rounded-xl font-semibold text-lg 
+              className="px-8 py-4 bg-miconbrandblue text-white rounded-xl font-semibold text-lg 
                         hover:from-sky-500 hover:to-blue-600 transition-all duration-200 transform hover:scale-105 
                         shadow-lg hover:shadow-xl"
             >
@@ -200,8 +200,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
                     {/* <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg mr-4 group-hover:scale-110 transition-transform duration-200">
                       <Icon className="h-6 w-6 text-blue-600" />
                     </div> */}
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-sky-100 to-sky-200 rounded-lg mr-4 group-hover:scale-110 transition-transform duration-200">
-                      <Icon className="h-6 w-6 text-sky-500" />
+                    <div className="inline-flex items-center justify-center w-12 h-12 bg-white rounded-lg mr-4 group-hover:scale-110 transition-transform duration-200">
+                      <Icon className="h-6 w-6 text-mskyblueshade" />
                     </div>
                     <h3 className="text-xl font-semibold text-slate-900">{feature.title}</h3>
                   </div>
@@ -209,7 +209,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
                   <ul className="space-y-2">
                     {feature.items.map((item, itemIndex) => (
                       <li key={itemIndex} className="flex items-center text-slate-700">
-                        <ChevronRight className="h-4 w-4 text-blue-500 mr-2 flex-shrink-0" />
+                        <ChevronRight className="h-4 w-4 text-white mr-2 flex-shrink-0" />
                         <span className="text-sm">{item}</span>
                       </li>
                     ))}
@@ -222,7 +222,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-sky-400 to-blue-500">
+      <section className="py-20 px-4 sm:px-6 lg:px-8  bg-miconbrandblue">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Your Clinical Trials?
@@ -238,9 +238,9 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowAuth }) => {
           </button>
         </div>
       </section>
-
+      <hr/>
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <footer className="bg-miconbrandblue text-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-center space-x-2 mb-8">
             <img

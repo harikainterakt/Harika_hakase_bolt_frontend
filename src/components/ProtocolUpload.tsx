@@ -145,9 +145,9 @@ const ProtocolUpload: React.FC<ProtocolUploadProps> = ({ onUploadComplete }) => 
           </label> */}
           <label
             htmlFor="file-upload"
-            className="inline-block px-6 py-3 bg-gradient-to-r from-sky-400 to-sky-600 text-white rounded-lg font-medium cursor-pointer hover:from-sky-500 hover:to-sky-700 transition-all duration-200"
+            className="inline-block px-6 py-3 bg-miconbrandblue text-white rounded-lg font-medium cursor-pointer hover:from-sky-500 hover:to-sky-700 transition-all duration-200"
           >
-            Select File
+            Upload File
           </label>
           
           <p className="text-sm text-slate-500 mt-4">

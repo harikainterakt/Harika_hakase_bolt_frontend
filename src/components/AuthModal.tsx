@@ -200,7 +200,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, mode, onClose, onSwitch, 
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-to-r from-sky-400 to-sky-600 text-white py-3 rounded-lg font-semibold hover:from-sky-500 hover:to-sky-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-miconbrandblue text-white py-3 rounded-lg font-semibold hover:from-sky-500 hover:to-sky-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center">
